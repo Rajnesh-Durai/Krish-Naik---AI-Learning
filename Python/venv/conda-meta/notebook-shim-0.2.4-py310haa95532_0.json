@@ -1,0 +1,63 @@
+{
+  "build": "py310haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0",
+    "jupyter_server >=1.8,<3"
+  ],
+  "extracted_package_dir": "C:\\Users\\RajneshDuraiThangaRa\\anaconda3\\pkgs\\notebook-shim-0.2.4-py310haa95532_0",
+  "files": [
+    "Lib/site-packages/notebook_shim-0.2.4.dist-info/INSTALLER",
+    "Lib/site-packages/notebook_shim-0.2.4.dist-info/METADATA",
+    "Lib/site-packages/notebook_shim-0.2.4.dist-info/RECORD",
+    "Lib/site-packages/notebook_shim-0.2.4.dist-info/REQUESTED",
+    "Lib/site-packages/notebook_shim-0.2.4.dist-info/WHEEL",
+    "Lib/site-packages/notebook_shim-0.2.4.dist-info/direct_url.json",
+    "Lib/site-packages/notebook_shim-0.2.4.dist-info/licenses/LICENSE",
+    "Lib/site-packages/notebook_shim/__init__.py",
+    "Lib/site-packages/notebook_shim/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/__pycache__/_version.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/__pycache__/nbserver.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/__pycache__/shim.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/__pycache__/traits.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/_version.py",
+    "Lib/site-packages/notebook_shim/nbserver.py",
+    "Lib/site-packages/notebook_shim/shim.py",
+    "Lib/site-packages/notebook_shim/tests/__init__.py",
+    "Lib/site-packages/notebook_shim/tests/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/tests/__pycache__/mockextension.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/tests/__pycache__/test_extension.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/tests/confs/__pycache__/jupyter_my_ext_config.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/tests/confs/__pycache__/jupyter_notebook_config.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/tests/confs/__pycache__/jupyter_server_config.cpython-310.pyc",
+    "Lib/site-packages/notebook_shim/tests/confs/jupyter_my_ext_config.py",
+    "Lib/site-packages/notebook_shim/tests/confs/jupyter_notebook_config.py",
+    "Lib/site-packages/notebook_shim/tests/confs/jupyter_server_config.py",
+    "Lib/site-packages/notebook_shim/tests/mockextension.py",
+    "Lib/site-packages/notebook_shim/tests/test_extension.py",
+    "Lib/site-packages/notebook_shim/traits.py",
+    "etc/jupyter/jupyter_server_config.d/notebook_shim.json"
+  ],
+  "fn": "notebook-shim-0.2.4-py310haa95532_0.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "C:\\Users\\RajneshDuraiThangaRa\\anaconda3\\pkgs\\notebook-shim-0.2.4-py310haa95532_0",
+    "type": 1
+  },
+  "md5": "1b64554fb524799ae35b7988e28abb84",
+  "name": "notebook-shim",
+  "package_tarball_full_path": "C:\\Users\\RajneshDuraiThangaRa\\anaconda3\\pkgs\\notebook-shim-0.2.4-py310haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "12062521d50eee2a03dbdb47d8802830850232f8665f302f7798fcc832803dde",
+  "size": 24064,
+  "subdir": "win-64",
+  "timestamp": 1741707972000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/notebook-shim-0.2.4-py310haa95532_0.conda",
+  "version": "0.2.4"
+}

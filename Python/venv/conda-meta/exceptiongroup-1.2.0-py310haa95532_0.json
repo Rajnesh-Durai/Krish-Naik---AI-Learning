@@ -1,0 +1,52 @@
+{
+  "build": "py310haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\RajneshDuraiThangaRa\\anaconda3\\pkgs\\exceptiongroup-1.2.0-py310haa95532_0",
+  "files": [
+    "Lib/site-packages/exceptiongroup-1.2.0.dist-info/INSTALLER",
+    "Lib/site-packages/exceptiongroup-1.2.0.dist-info/LICENSE",
+    "Lib/site-packages/exceptiongroup-1.2.0.dist-info/METADATA",
+    "Lib/site-packages/exceptiongroup-1.2.0.dist-info/RECORD",
+    "Lib/site-packages/exceptiongroup-1.2.0.dist-info/REQUESTED",
+    "Lib/site-packages/exceptiongroup-1.2.0.dist-info/WHEEL",
+    "Lib/site-packages/exceptiongroup-1.2.0.dist-info/direct_url.json",
+    "Lib/site-packages/exceptiongroup/__init__.py",
+    "Lib/site-packages/exceptiongroup/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/exceptiongroup/__pycache__/_catch.cpython-310.pyc",
+    "Lib/site-packages/exceptiongroup/__pycache__/_exceptions.cpython-310.pyc",
+    "Lib/site-packages/exceptiongroup/__pycache__/_formatting.cpython-310.pyc",
+    "Lib/site-packages/exceptiongroup/__pycache__/_suppress.cpython-310.pyc",
+    "Lib/site-packages/exceptiongroup/__pycache__/_version.cpython-310.pyc",
+    "Lib/site-packages/exceptiongroup/_catch.py",
+    "Lib/site-packages/exceptiongroup/_exceptions.py",
+    "Lib/site-packages/exceptiongroup/_formatting.py",
+    "Lib/site-packages/exceptiongroup/_suppress.py",
+    "Lib/site-packages/exceptiongroup/_version.py",
+    "Lib/site-packages/exceptiongroup/py.typed"
+  ],
+  "fn": "exceptiongroup-1.2.0-py310haa95532_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\RajneshDuraiThangaRa\\anaconda3\\pkgs\\exceptiongroup-1.2.0-py310haa95532_0",
+    "type": 1
+  },
+  "md5": "a300bf014cd1586d2f29507a7376d3e6",
+  "name": "exceptiongroup",
+  "package_tarball_full_path": "C:\\Users\\RajneshDuraiThangaRa\\anaconda3\\pkgs\\exceptiongroup-1.2.0-py310haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c1468ae1ea93aa1d416d237860409529dbaf9b717640888548731a88679ac826",
+  "size": 31285,
+  "subdir": "win-64",
+  "timestamp": 1706031719000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/exceptiongroup-1.2.0-py310haa95532_0.conda",
+  "version": "1.2.0"
+}

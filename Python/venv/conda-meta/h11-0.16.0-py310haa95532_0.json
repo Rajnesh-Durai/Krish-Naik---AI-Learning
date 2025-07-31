@@ -1,0 +1,63 @@
+{
+  "build": "py310haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.10,<3.11.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\RajneshDuraiThangaRa\\anaconda3\\pkgs\\h11-0.16.0-py310haa95532_0",
+  "files": [
+    "Lib/site-packages/h11-0.16.0.dist-info/INSTALLER",
+    "Lib/site-packages/h11-0.16.0.dist-info/METADATA",
+    "Lib/site-packages/h11-0.16.0.dist-info/RECORD",
+    "Lib/site-packages/h11-0.16.0.dist-info/REQUESTED",
+    "Lib/site-packages/h11-0.16.0.dist-info/WHEEL",
+    "Lib/site-packages/h11-0.16.0.dist-info/direct_url.json",
+    "Lib/site-packages/h11-0.16.0.dist-info/licenses/LICENSE.txt",
+    "Lib/site-packages/h11-0.16.0.dist-info/top_level.txt",
+    "Lib/site-packages/h11/__init__.py",
+    "Lib/site-packages/h11/__pycache__/__init__.cpython-310.pyc",
+    "Lib/site-packages/h11/__pycache__/_abnf.cpython-310.pyc",
+    "Lib/site-packages/h11/__pycache__/_connection.cpython-310.pyc",
+    "Lib/site-packages/h11/__pycache__/_events.cpython-310.pyc",
+    "Lib/site-packages/h11/__pycache__/_headers.cpython-310.pyc",
+    "Lib/site-packages/h11/__pycache__/_readers.cpython-310.pyc",
+    "Lib/site-packages/h11/__pycache__/_receivebuffer.cpython-310.pyc",
+    "Lib/site-packages/h11/__pycache__/_state.cpython-310.pyc",
+    "Lib/site-packages/h11/__pycache__/_util.cpython-310.pyc",
+    "Lib/site-packages/h11/__pycache__/_version.cpython-310.pyc",
+    "Lib/site-packages/h11/__pycache__/_writers.cpython-310.pyc",
+    "Lib/site-packages/h11/_abnf.py",
+    "Lib/site-packages/h11/_connection.py",
+    "Lib/site-packages/h11/_events.py",
+    "Lib/site-packages/h11/_headers.py",
+    "Lib/site-packages/h11/_readers.py",
+    "Lib/site-packages/h11/_receivebuffer.py",
+    "Lib/site-packages/h11/_state.py",
+    "Lib/site-packages/h11/_util.py",
+    "Lib/site-packages/h11/_version.py",
+    "Lib/site-packages/h11/_writers.py",
+    "Lib/site-packages/h11/py.typed"
+  ],
+  "fn": "h11-0.16.0-py310haa95532_0.conda",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\RajneshDuraiThangaRa\\anaconda3\\pkgs\\h11-0.16.0-py310haa95532_0",
+    "type": 1
+  },
+  "md5": "79600cc2dbd9993760fa60a8ab93e365",
+  "name": "h11",
+  "package_tarball_full_path": "C:\\Users\\RajneshDuraiThangaRa\\anaconda3\\pkgs\\h11-0.16.0-py310haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "1b3b49d549eb91097fcbdb8f3b26719487285d19f92c85b6f844da007e41047d",
+  "size": 55569,
+  "subdir": "win-64",
+  "timestamp": 1748442365000,
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/h11-0.16.0-py310haa95532_0.conda",
+  "version": "0.16.0"
+}
