@@ -1,0 +1,45 @@
+We all have designed some Classes, used Inheritance, proudly employed Encapsulation, taken advantage of Polymorphism, and even utilized Abstraction. We also grasped that our code isn’t perfect in the first iteration and requires change or refactoring later. The problem is that sometimes, ‘later’ is too late, and we are so far from ‘practical’ that “making it better” is a project of its own. Most of us have successfully deployed our code to production, but something somehow somewhere reminds us that our job isn’t over just because the code is deployed. New Requirements, Bugs, or Changes will come, and when they come, they reveal our shortcomings or short-sightedness. We even have a default reaction when that happens.
+
+“How could I possibly have known about it? There was no such discussion before, there was no time…,” and my favorite, “To finish the job, we must redesign the code and spend more time than anticipated.”
+
+Can we be more prepared when that happens? Can’t we extend our code and not change it?
+
+I - What is Object-oriented Programming (OOP)
+OOP is a programming model that arranges objects rather than functions. Functional programming is about writing methods that perform operations on the data, while OOP is about assembling objects that contain both data and methods. A class is a template for objects, and an object is an instance of a class.
+
+For example, Class: Fruit | Object: Banana, Grape, Orange
+
+Pillars of OOP
+There are four basic principles of object-oriented programming. They are:
+
+1- Abstraction: Modeling the relationships, attributes, and interactions amongst entities as classes to create an abstraction of a system. If correctly applied, abstraction can isolate the changes made to the code so that if something goes wrong, the change will only impact the implementation details of a class and not the outside calling code. As a rule of thumb, it’s preferred to separate the interface of a class from its implementation.
+
+2- Encapsulation: Hiding the internal state of an object and allowing interaction with them via public properties or functions. Encapsulation means enclosing something. It forms a protective layer around the information within an object from the rest of the code. When an object prevents code from accessing its private data directly, it is well encapsulated.
+
+An example can be making the social security number of a Person a private member of the class. By encapsulating this member as a private variable, the outside code can’t access it directly and will remain safe within that Person’s object. A method inside the class can access this private member if necessary.
+
+3- Polymorphism: Ability to implement properties or methods in the derived objects differently from their parent abstractions. Polymorphism allows for the unvarying treatment of classes in a hierarchy. As mentioned earlier, derived objects share the same interface as their parents. Using Polymorphism and at run-time, we can expect appropriate behavior from the same method in the derived classes vs. the parent classes.
+
+One more valuable point about Polymorphism is that you can replace Conditionals with Polymorphism! Your code will correspond to the right section of the conditional using Polymorphism. For example, if you write an If-statement to perform different actions based on an Object Type, you can instead write subclasses that match the “If” or the “else” sections.
+
+4- Inheritance: Ability to create derived abstractions based on existing parent abstractions. Inheritance acts like hierarchies or trees where a class might have one or more child classes. If a class inherits from another parent class, we say it is derived from the parent class, and it represents an “IS-A” relationship. ‘Inheritance’ leads to good code reuse as parent functions don’t need to be redefined in child classes. For example, ‘Espresso’ is a ‘drink.’ The parent class is the ‘drink,’ and ‘Espresso’ is the child/derived class; therefore, ‘Espresso’ obtains much of the same functionality and properties of a ‘drink.’ It can also extend new functionalities of its own as well.
+
+Consider the following: We have an Animal parent/base class and two derived/child classes called Cat and Dog. If the Animal class has a “MakeSomeNoise” method, we can override the function so that the same method makes “meow” for Cats but “barks” for Dogs.
+
+Inheritance vs. Composition
+
+“Program to interfaces, not implementations” — Gang of Four
+
+In the previous section, I said that Inheritance leads to code reuse. I need to give more information about it. Although Inheritance is a fundamental principle for OOP, there’s something to be said about using “Composition.” Inheritance offers a way to reuse code by extending the class, but if you need to use an object as a field within another class, you should use Composition.
+
+The main difference between Inheritance and Composition is the relationship between objects. As you saw, Inheritance uses the “IS-A.” relationship, but Composition uses the “Has-A” or “Uses A” relationship. A Car is a Vehicle, but a Car has /uses a steering capability.
+
+Classes and objects in inheritance code are tightly coupled, which is sometimes exactly what you need. But with Composition, Classes and objects are loosely coupled, meaning you can switch up these components more quickly. Sometimes Inheritance can break Encapsulation; to solve that, you should use Composition. Composition lets you create complex types by combining “Behaviors.”
+
+Composition is my preferred method in cases where one object “has” or is “part of another object.” For example, a house has a bedroom (a bedroom is part of a house). My personal preference has dictated me to conclude that if I am not sure which one to use, I go with Composition over Inheritance initially unless I need to switch, which has been rarer than you think.
+
+Here is another example of providing a problem starting with Inheritance: Birds fly and eat. An Eagle is a “bird.” therefore, they ‘must’ fly and eat. Inheritance!
+
+Later, a new requirement comes along, and a new bird is introduced, an Ostrich. Ostriches can’t fly!
+
+What are you going to do? “Composition” fits better in this case. Birds have different behaviors as Base classes, such as fly behaviors (iFly Interface). Eagles Inherit common behaviors from birds, but they also implement their specific Interfaces. Do you think Ostriches can implement a “Not-flying” behavior as the solution? I will explain the validity of such claims when we discuss Design Patterns.
